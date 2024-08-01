@@ -31,3 +31,6 @@ RUN npm --version
 WORKDIR /src
 ADD . /src/storage
 RUN chown -R www-data:www-data /src/storage
+
+EXPOSE 5173
+
